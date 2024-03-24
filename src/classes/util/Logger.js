@@ -49,7 +49,7 @@ class Logger {
      * @returns {void}
      */
     info(message, color = 'cyan') {
-        console.log(`${this.colors[color]}[Economy] ${message}${this.colors.reset}`)
+        console.log(`${this.colors[color]}[Discord-Economy-Super] ${message}${this.colors.reset}`)
     }
 
     /**
@@ -59,7 +59,7 @@ class Logger {
      * @returns {void}
      */
     error(message, color = 'red') {
-        console.error(`${this.colors[color]}[Economy - Error] ${message}${this.colors.reset}`)
+        console.error(`${this.colors[color]}[Discord-Economy-Super - Error] ${message}${this.colors.reset}`)
     }
 
     /**
@@ -70,7 +70,7 @@ class Logger {
      */
     debug(message, color = 'yellow') {
         if (!this.options.debug) return
-        console.log(`${this.colors[color]}[Economy] ${message}${this.colors.reset}`)
+        console.log(`${this.colors[color]}[Discord-Economy-Super] ${message}${this.colors.reset}`)
     }
 
     /**
@@ -80,7 +80,7 @@ class Logger {
      * @returns {void}
      */
     warn(message, color = 'lightyellow') {
-        console.log(`${this.colors[color]}[Economy - Warning] ${message}${this.colors.reset}`)
+        console.log(`${this.colors[color]}[Discord-Economy-Super - Warning] ${message}${this.colors.reset}`)
     }
 
     /**

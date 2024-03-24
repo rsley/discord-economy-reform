@@ -1,5 +1,5 @@
 {
-	"name": "discord-economy-super",
+	"name": "discord-economy-reform",
 	"version": "1.7.6",
 	"types": "./typings/Economy.d.ts",
 	"description": "Easy and customizable economy module for your Discord Bot.",
@@ -46,7 +46,7 @@
 		"framework",
 		"shadowplay"
 	],
-	"author": "shadowplay",
+	"author": "rsley",
 	"license": "MIT",
 	"dependencies": {
 		"quick-mongo-super": "^1.0.12"
@@ -62,10 +62,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/shadowplay1/discord-economy-super.git"
+		"url": "git+https://github.com/rsley/discord-economy-reform.git"
 	},
 	"bugs": {
-		"url": "https://github.com/shadowplay1/discord-economy-super/issues"
+		"url": "https://github.com/rsley/discord-economy-reform/issues"
 	},
 	"homepage": "https://des-docs.js.org",
 	"devDependencies": {
